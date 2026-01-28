@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88EA1C722F29D858009F846B /* SKU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C712F29D857009F846B /* SKU.swift */; };
+		88EA1C732F29D858009F846B /* SKU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C712F29D857009F846B /* SKU.swift */; };
+		88EA1C752F29D89C009F846B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C742F29D89C009F846B /* Item.swift */; };
+		88EA1C762F29D89C009F846B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C742F29D89C009F846B /* Item.swift */; };
+		88EA1C782F29D8BE009F846B /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C772F29D8BE009F846B /* Receipt.swift */; };
+		88EA1C792F29D8BE009F846B /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C772F29D8BE009F846B /* Receipt.swift */; };
+		88EA1C7B2F29D8E1009F846B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C7A2F29D8E1009F846B /* Register.swift */; };
+		88EA1C7C2F29D8E1009F846B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C7A2F29D8E1009F846B /* Register.swift */; };
 		FEAFD27F2B91637C00BEB810 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD27E2B91637C00BEB810 /* main.swift */; };
 		FEAFD28C2B9163D100BEB810 /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD28B2B9163D100BEB810 /* StoreTests.swift */; };
 		FEAFD2912B91641C00BEB810 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD27E2B91637C00BEB810 /* main.swift */; };
@@ -25,6 +33,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		88EA1C712F29D857009F846B /* SKU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKU.swift; sourceTree = "<group>"; };
+		88EA1C742F29D89C009F846B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		88EA1C772F29D8BE009F846B /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		88EA1C7A2F29D8E1009F846B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		FEAFD27B2B91637C00BEB810 /* Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Store; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAFD27E2B91637C00BEB810 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FEAFD2892B9163D100BEB810 /* StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				FEAFD27E2B91637C00BEB810 /* main.swift */,
+				88EA1C712F29D857009F846B /* SKU.swift */,
+				88EA1C742F29D89C009F846B /* Item.swift */,
+				88EA1C772F29D8BE009F846B /* Receipt.swift */,
+				88EA1C7A2F29D8E1009F846B /* Register.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -128,7 +144,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					FEAFD27A2B91637C00BEB810 = {
 						CreatedOnToolsVersion = 15.2;
@@ -172,7 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EA1C782F29D8BE009F846B /* Receipt.swift in Sources */,
 				FEAFD27F2B91637C00BEB810 /* main.swift in Sources */,
+				88EA1C752F29D89C009F846B /* Item.swift in Sources */,
+				88EA1C722F29D858009F846B /* SKU.swift in Sources */,
+				88EA1C7B2F29D8E1009F846B /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +200,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EA1C7C2F29D8E1009F846B /* Register.swift in Sources */,
+				88EA1C792F29D8BE009F846B /* Receipt.swift in Sources */,
+				88EA1C762F29D89C009F846B /* Item.swift in Sources */,
+				88EA1C732F29D858009F846B /* SKU.swift in Sources */,
 				FEAFD2912B91641C00BEB810 /* main.swift in Sources */,
 				FEAFD28C2B9163D100BEB810 /* StoreTests.swift in Sources */,
 			);
@@ -222,6 +246,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -246,6 +271,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -285,6 +311,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -302,6 +329,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -310,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = PKYZS83VA8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = PKYZS83VA8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,9 +361,11 @@
 		FEAFD28E2B9163D100BEB810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 72QDJX3P6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.newart.store.StoreTests;
@@ -346,9 +378,11 @@
 		FEAFD28F2B9163D100BEB810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 72QDJX3P6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.newart.store.StoreTests;

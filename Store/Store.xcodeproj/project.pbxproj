@@ -15,6 +15,20 @@
 		88EA1C792F29D8BE009F846B /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C772F29D8BE009F846B /* Receipt.swift */; };
 		88EA1C7B2F29D8E1009F846B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C7A2F29D8E1009F846B /* Register.swift */; };
 		88EA1C7C2F29D8E1009F846B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C7A2F29D8E1009F846B /* Register.swift */; };
+		88EA1C7E2F29EE3F009F846B /* PricingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C7D2F29EE3F009F846B /* PricingScheme.swift */; };
+		88EA1C7F2F29EE3F009F846B /* PricingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C7D2F29EE3F009F846B /* PricingScheme.swift */; };
+		88EA1C812F29EE62009F846B /* TwoForOnePricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C802F29EE62009F846B /* TwoForOnePricing.swift */; };
+		88EA1C822F29EE62009F846B /* TwoForOnePricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C802F29EE62009F846B /* TwoForOnePricing.swift */; };
+		88EA1C842F29F054009F846B /* GroupedPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C832F29F054009F846B /* GroupedPricing.swift */; };
+		88EA1C852F29F054009F846B /* GroupedPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C832F29F054009F846B /* GroupedPricing.swift */; };
+		88EA1C872F29F0E2009F846B /* WeightedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C862F29F0E2009F846B /* WeightedItem.swift */; };
+		88EA1C882F29F0E2009F846B /* WeightedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C862F29F0E2009F846B /* WeightedItem.swift */; };
+		88EA1C8A2F29F157009F846B /* CouponPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C892F29F157009F846B /* CouponPricing.swift */; };
+		88EA1C8B2F29F157009F846B /* CouponPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C892F29F157009F846B /* CouponPricing.swift */; };
+		88EA1C8D2F29F1A1009F846B /* RainCheckPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C8C2F29F1A1009F846B /* RainCheckPricing.swift */; };
+		88EA1C8E2F29F1A1009F846B /* RainCheckPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C8C2F29F1A1009F846B /* RainCheckPricing.swift */; };
+		88EA1C902F29F218009F846B /* Taxable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C8F2F29F218009F846B /* Taxable.swift */; };
+		88EA1C912F29F218009F846B /* Taxable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA1C8F2F29F218009F846B /* Taxable.swift */; };
 		FEAFD27F2B91637C00BEB810 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD27E2B91637C00BEB810 /* main.swift */; };
 		FEAFD28C2B9163D100BEB810 /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD28B2B9163D100BEB810 /* StoreTests.swift */; };
 		FEAFD2912B91641C00BEB810 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFD27E2B91637C00BEB810 /* main.swift */; };
@@ -37,6 +51,13 @@
 		88EA1C742F29D89C009F846B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		88EA1C772F29D8BE009F846B /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 		88EA1C7A2F29D8E1009F846B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		88EA1C7D2F29EE3F009F846B /* PricingScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingScheme.swift; sourceTree = "<group>"; };
+		88EA1C802F29EE62009F846B /* TwoForOnePricing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoForOnePricing.swift; sourceTree = "<group>"; };
+		88EA1C832F29F054009F846B /* GroupedPricing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedPricing.swift; sourceTree = "<group>"; };
+		88EA1C862F29F0E2009F846B /* WeightedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedItem.swift; sourceTree = "<group>"; };
+		88EA1C892F29F157009F846B /* CouponPricing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponPricing.swift; sourceTree = "<group>"; };
+		88EA1C8C2F29F1A1009F846B /* RainCheckPricing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainCheckPricing.swift; sourceTree = "<group>"; };
+		88EA1C8F2F29F218009F846B /* Taxable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxable.swift; sourceTree = "<group>"; };
 		FEAFD27B2B91637C00BEB810 /* Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Store; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAFD27E2B91637C00BEB810 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FEAFD2892B9163D100BEB810 /* StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +108,13 @@
 				88EA1C742F29D89C009F846B /* Item.swift */,
 				88EA1C772F29D8BE009F846B /* Receipt.swift */,
 				88EA1C7A2F29D8E1009F846B /* Register.swift */,
+				88EA1C7D2F29EE3F009F846B /* PricingScheme.swift */,
+				88EA1C802F29EE62009F846B /* TwoForOnePricing.swift */,
+				88EA1C832F29F054009F846B /* GroupedPricing.swift */,
+				88EA1C862F29F0E2009F846B /* WeightedItem.swift */,
+				88EA1C892F29F157009F846B /* CouponPricing.swift */,
+				88EA1C8C2F29F1A1009F846B /* RainCheckPricing.swift */,
+				88EA1C8F2F29F218009F846B /* Taxable.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -189,10 +217,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EA1C782F29D8BE009F846B /* Receipt.swift in Sources */,
+				88EA1C842F29F054009F846B /* GroupedPricing.swift in Sources */,
 				FEAFD27F2B91637C00BEB810 /* main.swift in Sources */,
+				88EA1C872F29F0E2009F846B /* WeightedItem.swift in Sources */,
 				88EA1C752F29D89C009F846B /* Item.swift in Sources */,
+				88EA1C912F29F218009F846B /* Taxable.swift in Sources */,
+				88EA1C7E2F29EE3F009F846B /* PricingScheme.swift in Sources */,
+				88EA1C822F29EE62009F846B /* TwoForOnePricing.swift in Sources */,
 				88EA1C722F29D858009F846B /* SKU.swift in Sources */,
+				88EA1C8B2F29F157009F846B /* CouponPricing.swift in Sources */,
 				88EA1C7B2F29D8E1009F846B /* Register.swift in Sources */,
+				88EA1C8D2F29F1A1009F846B /* RainCheckPricing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +235,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EA1C812F29EE62009F846B /* TwoForOnePricing.swift in Sources */,
+				88EA1C902F29F218009F846B /* Taxable.swift in Sources */,
+				88EA1C882F29F0E2009F846B /* WeightedItem.swift in Sources */,
+				88EA1C7F2F29EE3F009F846B /* PricingScheme.swift in Sources */,
 				88EA1C7C2F29D8E1009F846B /* Register.swift in Sources */,
+				88EA1C852F29F054009F846B /* GroupedPricing.swift in Sources */,
+				88EA1C8E2F29F1A1009F846B /* RainCheckPricing.swift in Sources */,
+				88EA1C8A2F29F157009F846B /* CouponPricing.swift in Sources */,
 				88EA1C792F29D8BE009F846B /* Receipt.swift in Sources */,
 				88EA1C762F29D89C009F846B /* Item.swift in Sources */,
 				88EA1C732F29D858009F846B /* SKU.swift in Sources */,

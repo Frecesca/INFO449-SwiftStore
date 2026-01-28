@@ -14,8 +14,12 @@ class Receipt {
     // List of all items scanned in this transaction
     var scanned: [SKU]
 
+    // Total tax for this receipt (in pennies)
+    var taxAmount: Int
+
     init() {
         scanned = []
+        taxAmount = 0
     }
 
     // Add a scanned item to the receipt
@@ -28,7 +32,7 @@ class Receipt {
         return scanned
     }
 
-    // Calculates the total price of all items (in pennies)
+    // Calculates the subtotal price of all items (before tax)
     func total() -> Int {
         var sum = 0
 
@@ -51,7 +55,7 @@ class Receipt {
         }
     }
 
-    // Outputs the receipt showing all items and the final total
+    // Outputs the receipt showing all items, tax, and final total
     func output() -> String {
         var result = ""
         result += "Receipt:\n"
@@ -61,9 +65,10 @@ class Receipt {
         }
 
         result += "------------------\n"
-        result += "TOTAL: \(formatMoney(total()))"
+        result += "SUBTOTAL: \(formatMoney(total()))\n"
+        result += "TAX: \(formatMoney(taxAmount))\n"
+        result += "TOTAL: \(formatMoney(total() + taxAmount))"
 
         return result
     }
 }
-
